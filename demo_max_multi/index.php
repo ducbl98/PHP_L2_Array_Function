@@ -14,3 +14,4 @@ function findMinArray($arr)
 
 $arr = [[1,2],[2, 3], [4,1], [1,5], [0,43],[1,3], [21,0],[ 12,3]];
 echo findMinArray($arr);
+echo phpversion();
