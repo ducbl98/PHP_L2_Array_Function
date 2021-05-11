@@ -67,6 +67,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         fieldset {
             width: 30%;
         }
+        error {
+            color: #FF0000;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th{
+            border: solid 1px #ccc;
+        }
+        form{
+            width: 450px;
+        }
     </style>
 </head>
 <body>
