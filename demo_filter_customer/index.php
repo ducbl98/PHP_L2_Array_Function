@@ -77,7 +77,7 @@ $filteredCustomer = searchByDate($customerList, $fromDate, $toDate);
     </style>
 </head>
 <body>
-<form>
+<form method="get">
     Select date of birth from
     <input type="date" name="from" id="from" placeholder="yyyy/mm/dd" value="">
     to
